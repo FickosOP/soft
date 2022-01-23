@@ -4,7 +4,7 @@
 Goal of this project is to count how many times does ball bounce off the left or right wall in Brick Breaker game.
 
 <h2>Dataset</h2>
-Videos of Brick Breaker game and correct results are downloaded from [here](https://drive.google.com/drive/folders/1plDgdCvoW-DngKjFDHNPl_XUaq8PzOqi)
+Videos of Brick Breaker game and correct results are downloaded from <a href = https://drive.google.com/drive/folders/1plDgdCvoW-DngKjFDHNPl_XUaq8PzOqi>here</a>
 
 <h2>Steps</h2>
 <ol>
