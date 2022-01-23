@@ -8,7 +8,6 @@ import os
 
 def get_left_and_right_edge(frame, show):
     edges = cv2.Canny(frame, 100, 200)
-    plt.imshow(edges, 'gray')
 
     lines = cv2.HoughLinesP(image=edges, rho=1, theta=np.pi / 180, threshold=10, lines=np.array([]),
                             minLineLength=385, maxLineGap=20)
@@ -130,9 +129,9 @@ if __name__ == '__main__':
 
         y_true.append(real)
         y_predicted.append(bounces)
-        print(f"IN VIDEO: {video} there is {real} hits.")
+        print(f"IN VIDEO: {video} THERE IS {real} HITS.")
         print(f"\n HITS DETECTED: {bounces}")
         print(f"\n ERROR: {bounces - real}")
-        # wait = input()
+
     mae = mean_absolute_error(y_true, y_predicted)
     print(f"MAE: {mae}")
